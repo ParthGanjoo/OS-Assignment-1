@@ -373,7 +373,7 @@ int main(){
     while(1){
         printf(">> ");
         commandstr = readcommand();
-        if (strcmp(commandstr,"\0")==0){
+        if (strcmp(commandstr,"\0")!=0){
             // puts(commandstr);
             commandarr = splitcommand(commandstr);
             internalcommand(commandarr);
