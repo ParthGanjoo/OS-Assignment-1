@@ -1,4 +1,4 @@
-Basic Linux/Unix Shell
+Basic Linux/Unix Shell:
 I have made a Linux shell that is coded in C. It has 8 commands with 2 options each and accepts all possible arguments. It has 3 internal and 5 external commands which were implemented using fork, execv, wait and pthread system calls. It also handled various corner cases and errors.
 The shell uses an infinite loop. It takes the user input as string using fgets, then splits it using strtok and stores them in an array of string called command.
 Running the code in terminal:
